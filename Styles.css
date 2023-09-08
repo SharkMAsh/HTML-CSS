@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #1F2833;
+    color: #C5C6C7;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #66FCF1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #45A29E;
+}
+
+h1 {
+    /* font-size: 50px; */
+    font-weight: bolder;
+    /* color: #66FCF1; */
+    color: #C5C6C7;
+    font-weight: 3;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    box-shadow: 6px 6px 15px 5px rgba(0, 0, 0, 0.507);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info p {
+    color: #45A29E;
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+}
+
+@media (max-widgth: 700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+
+}
+.info-list {
+    margin-left: 40px;
+}
+
+.info-list h4 {
+    margin-bottom: 3px;
+}
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    /* background: #0B0C10; */
+    background: #2F4454;
+
+}
+
+.list {
+    padding: 0 20px;
+    list-style: none;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 5px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #929292;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    margin: 5px 0 5px 6px;
+    font-size: 14px;
+    color: #45A29E;
+}
+
+.form-group input,
+.form-group textarea {
+
+    box-sizing: border-box;
+    border: none;
+    background: #2f4454a9;
+    /* border-bottom: 1px solid #ccc; */
+    color: #C5C6C7;
+    outline: none;
+    padding: 7px 8px 4px;
+    font-family: inherit;
+    border-radius: 7px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.row>.form-group {
+    margin-right: 20px;
+}
+
+.form-group textarea {
+    max-width: 400px;
+    margin: auto;
+}
+
+.button input {
+    width: 160px;
+    height: 25px;
+    font-family: inherit;
+    border-radius: 5px;
+    text-align: center;
+    background: #45A29E;
+    border: none;
+    /* padding: 0px 0 10px 4px; */
+    margin: 0 0 0 4px;
+    color: #C5C6C7;
+    cursor: pointer;
+}
+
+/* .button:hover {
+     opacity: 0.8; 
+} */
